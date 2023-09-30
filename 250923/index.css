@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100vw;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff7fe;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+p {
+  margin: 10px 0px 35px 0px;
+  text-align: center;
+  font-size: 15px;
+}
+.wrapper-courses {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-bottom: 40px;
+}
+.box-course {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid #ffd9fb;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background-color: #fdf1fd;
+  transition: all 0.4s ease;
+  height: 420px;
+}
+.box-course:hover {
+  filter: drop-shadow(7px 15px 16px #00000030);
+}
+.img-course {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  filter: grayscale(100%);
+}
+.name-course {
+  text-align: center;
+}
+.desc-course {
+  text-align: center;
+}
+.link-course {
+  background-color: #722072;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: opacity 0.4s ease;
+}
+.link-course:hover {
+  opacity: 60%;
+}
+
+.link-page {
+  text-transform: uppercase;
+  font-weight: 600;
+}

@@ -1,22 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
-</head>
-<body>
-    <div class="rWrapper">
-    <p class="greeting">Seja bem-vindo!</p>
-    <h1 class="name">Rafael Reis Franco</h1>
-    <p>Atualmente estou cursando Sistemas de Informação, sou apaixonado por tecnologia, design e inovação.</p>
-    <p class="desc">Universidade: UNA Aimorés</p> 
-    <p class="desc">Grupo: Henrique, Paulo, Gabriel</p>   
-
-    <a href="mailto:rafaelreisfranco15@gmail.com">rafaelreisfranco15@gmail.com</a>
-    </div>
-    <div class="lWrapper">
-        <img src="https://avatars.githubusercontent.com/u/87779561?v=4"/>
-    </div>
-</body>
+    <link rel="stylesheet" href="./aboutme.css" />
+  </head>
+  <body>
+    <!-- 2.	Ainda na Pagina2, faça:
+    a.	Preparar a página2 para que inclua os seguintes elementos:
+    i.	título com o seu nome;
+    ii.	um pequeno texto com a sua biografia;
+    b.	Fazer com que a página tenha três parágrafos:
+    i.	uma saudação para todos que lerem sua página;
+    ii.	uma descrição física da sua instituição;
+    iii.	uma relação dos nomes dos colegas presentes.
+    c.	Introduza no final da página seu endereço de e-mail.
+    d.	Fique à vontade para adicionar mais informações / imagens -->
+    <main>
+      <div class="lWrapper">
+        <img
+          class="img-profile"
+          src="https://avatars.githubusercontent.com/u/87779561?v=4"
+        />
+      </div>
+      <div class="rWrapper">
+        <p class="greeting">Seja bem-vindo!</p>
+        <h1 class="name">Rafael Reis Franco</h1>
+        <p class="about">
+          Atualmente estou cursando Sistemas de Informação, sou apaixonado por
+          tecnologia, design e inovação.
+        </p>
+        <table>
+          <tr>
+            <th>Informações</th>
+            <th>Valores</th>
+          </tr>
+          <tr>
+            <td>Idade</td>
+            <td>21 anos</td>
+          </tr>
+          <tr class="row-table">
+            <td>Especialização</td>
+            <td>Front-End Developer</td>
+          </tr>
+          <tr>
+            <td>Familiaridade na turma</td>
+            <td>Paulo, Henrique, Jardim, Pedro</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
 </html>
