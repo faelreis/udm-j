@@ -2,8 +2,7 @@
 Cliente servidor
 
 ## Observe o código a seguir e responda:
-
-`<!DOCTYPE html>
+<code><!DOCTYPE html>
     <html>
     <head>
     <style>
@@ -24,8 +23,7 @@ Cliente servidor
         <a href="/js/default.asp" class=”link” target="_blank">JavaScript</a>
         <a href="/react/default.asp" target="_blank">React</a>
     </body>
-</html>`
-![Alt text](image.png)
+</html></code>
 
 ### A- O estilo mostrado será aplicado a quais elementos? Explique.0
 Será aplicado aos elementos com a classe "link".
