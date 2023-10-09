@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   background-color: #fff7fe;
 }
+
 h1 {
   text-align: center;
   margin-top: 100px;
@@ -26,7 +27,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 150px;
+  gap: 130px;
   margin-bottom: 40px;
 }
 .box-course {
@@ -73,4 +74,67 @@ p {
 .link-page {
   text-transform: uppercase;
   font-weight: 600;
+}
+
+
+@media (max-width: 1110px){
+  .wrapper-courses{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 990px){
+  .wrapper-courses{
+    margin-top: 10px;
+    gap: 30px;
+    flex-direction: column;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 500px){
+  .box-course {
+    max-width: 300px;
+    padding: 30px;
+    height: 420px;
+  }
+  h1{
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 390px){
+  .box-course {
+    max-width: 200px;
+    padding: 20px;
+    height: 420px;
+  } 
+  .img-course {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 270px){
+  h1{
+    max-width: 200px;
+  }
+  .box-course {
+    max-width: 150px;
+    padding: 15px;
+    height: 100%;
+  } 
+  .img-course {
+    margin-bottom: 20px;
+  }
+  .name-course{
+    font-size: 20px;
+  }
 }
