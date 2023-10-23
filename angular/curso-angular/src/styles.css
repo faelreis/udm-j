@@ -1,0 +1,16 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #050505;
+    color: #FFF;
+    padding-top: 300px;
+    padding-left: 50px;
+}
+
+.aula{
+    border-bottom: 1px solid rgba(255, 0, 0, 0.473);
+    padding: 2em;
+    margin-bottom: 1em;
+}
